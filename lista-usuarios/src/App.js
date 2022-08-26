@@ -9,7 +9,7 @@ import { DefaultButton } from "./UI/Buttons";
 
 function App() {
   //retorna a aplicação com cabeçalho, lista de usuários e rodapé
-  //o conteúdo do cabeçalho são dois botões, um abre o modal sobre o projeto e o outro leva a fonte dos dados renderizados
+  //o conteúdo do cabeçalho são dois botões, um abre o modal sobre o projeto e o outro leva ao repositório do GitHub
   return (
     <div>
       <Header
