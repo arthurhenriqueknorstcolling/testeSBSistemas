@@ -35,7 +35,17 @@ function About() {
         </a>
       </p>
       <p> Desenvolvedor: Arthur Henrique Knorst Colling; </p>
-      <p> Data: 26/08/2022; </p>
+      <p> Data de entrega: 26/08/2022; </p>
+      <p>
+        Repositório:
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/arthurhenriqueknorstcolling/testeSBSistemas"
+        >
+          GitHub
+        </a>
+      </p>
       <p> Solicitações para o desenvolvimento:</p>
       <p>
         Faça um projeto em React contendo uma lista de usuários. Para a criação

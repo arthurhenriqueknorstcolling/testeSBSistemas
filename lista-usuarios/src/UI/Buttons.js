@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const CloseXButton = (props) => {
   //retorna o botão de fechar (X) no canto direito superior da tela (Bootstrap)

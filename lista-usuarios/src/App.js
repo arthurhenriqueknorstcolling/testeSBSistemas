@@ -18,11 +18,9 @@ function App() {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://jsonplaceholder.typicode.com/users"
+              href="https://github.com/arthurhenriqueknorstcolling/testeSBSistemas"
             >
-              <DefaultButton className={"btn btn-light btn-lg"}>
-                Database
-              </DefaultButton>
+              <DefaultButton className={"btn btn-light btn-lg"}>GitHub</DefaultButton>
             </a>
             <ModalComponent
               className={"btn btn-light btn-lg"}
