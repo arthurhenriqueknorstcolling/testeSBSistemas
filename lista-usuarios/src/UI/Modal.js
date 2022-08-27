@@ -11,7 +11,7 @@ const ModalComponent = (props) => {
   const [modalOpen, setModalOpen] = useState(false);
 
   //função para abrir o modal
-  const modalOpenHandler = () => {
+  const modalOpenerHandler = () => {
     setModalOpen(true);
   };
 
@@ -23,15 +23,15 @@ const ModalComponent = (props) => {
   //retorna o botão que abre o modal na tela, com conteúdo passado por props children e títulos do botão e do modal passados por props
   return (
     <div className="container-fluid">
-      <DefaultButton onClick={modalOpenHandler} className={props.className}>
+      <DefaultButton onClick={modalOpenerHandler} className={props.className}>
         {props.buttonTittle}
       </DefaultButton>
 
       <Modal isOpen={modalOpen} onRequestClose={modalCloseHandler}>
         <CloseXButton onClick={modalCloseHandler} />
         <div className="d-grid gap-2">
-          <div className="fs-2">{props.title}</div>
-          <div className="fs-6">{props.children}</div>
+          <div className="fs-2 text-center">{props.title}</div>
+          <div className="fs-5 text-start">{props.children}</div>
         </div>
       </Modal>
     </div>

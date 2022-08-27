@@ -8,7 +8,7 @@ function Footer(props) {
       <div className="d-grid gap-3">
         <div className="p-1 bg-light ">
           <div className="text-center">
-            <div className="fw-lighter fs-6 fst-italic">{props.children}</div>
+            <div className="fw-lighter fs-6">{props.children}</div>
           </div>
         </div>
       </div>

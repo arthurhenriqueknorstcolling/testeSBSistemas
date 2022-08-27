@@ -35,28 +35,28 @@ const UsersList = (props) => {
                   buttonTittle={"Details"}
                 >
                   {
-                    <div>
-                      <p>Id: {users[id].id}</p>
-                      <p>Name: {users[id].name}</p>
-                      <p>Username: {users[id].username}</p>
-                      <p>E-mail: {users[id].email}</p>
-                      <p>
+                    <ul type='none'>
+                      <li >Id: {users[id].id}</li>
+                      <li>Name: {users[id].name}</li>
+                      <li>Username: {users[id].username}</li>
+                      <li>E-mail: {users[id].email}</li>
+                      <li>
                         Address:
                         {`${users[id].address.street}, 
                               ${users[id].address.suite} - ${users[id].address.city} - 
                               ${users[id].address.zipcode} - 
                               (${users[id].address.geo.lat}), 
                               (${users[id].address.geo.lng})`}
-                      </p>
-                      <p>Phone: {users[id].phone}</p>
-                      <p>Website: {users[id].website}</p>
-                      <p>Company Name: {users[id].company.name}</p>
-                      <p>
+                      </li>
+                      <li>Phone: {users[id].phone}</li>
+                      <li>Website: {users[id].website}</li>
+                      <li>Company Name: {users[id].company.name}</li>
+                      <li>
                         Company Informations:
                         {`${users[id].company.catchPhrase} | 
                               ${users[id].company.bs}`}
-                      </p>
-                    </div>
+                      </li>
+                    </ul>
                   }
                 </ModalComponent>
               </td>

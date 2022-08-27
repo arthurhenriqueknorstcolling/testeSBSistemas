@@ -18,8 +18,10 @@ function Header(props) {
             {` ${props.children}`}
           </div>
 
-          <div className="navbar-nav justify-content-end p-1">
+          <div className="navbar-nav justify-content-end p-1" aria-current='page'>
+           
             {props.content}
+          
           </div>
         </div>
       </nav>
